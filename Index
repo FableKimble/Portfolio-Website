@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexander Evans Portfolio Website</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/ae4a97691b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="fullpage.css" />
+  <body>
+    <main>
+      <header>
+        <div>
+          <h3 class="headH3">Alexander Evans</h3>
+        </div>
+        <nav>
+          <a class="navlink" href="#Home">
+            <ul >
+              Home
+            </ul>
+          </a>
+          <a class="navlink" href="#about">
+            <ul >
+              About
+            </ul>
+          </a>
+          <a class="navlink" href="#work">
+            <ul>
+              Work
+            </ul>
+          </a>
+          <a class="navlink" href="#contact">
+            <ul >
+              Contact
+            </ul>
+          </a>
+        </nav>
+      </header>
+      <div class="verLine"></div>
+      <section id="Home">
+        <h1 class="headH1">Heya, Looking for a Designer?</h1>
+        <h2 class="headH2">I'm Alex, Nice to Meet you.</h2>
+        <p class="headP">I'm a designer making websites and technology with the intent to create wonderful user experiences!</p>
+      </section>
+      <div class="verLine"></div>
+        <section id="about">
+          <h2 class="aboutH2">About Me</h2>
+          <div class="verLine"></div>
+          <div data-aos="fade-up"
+          data-aos-duration="2000">
+            <div class="background2">
+              <div class="leftAbout">
+                  <img class="myPic" src="assets/Pictures/IMG_9641.jpeg" alt="a picture of yours truly">
+              </div>
+              <div class="rightAbout">
+                <h2 class="aboutH2">Gotta Start Somewhere!</h2>
+                <div class="verLine alt"></div>
+                <p class="paraAbout">I'm a Front End Web Developer with a love for using new technology to create visually pleasing websites that are amazing for the audience and the client. I have some examples in my Work Section if you want to check them out,</p>
+                <p class="paraAbout">I love web development, from the brainstorming new ways to create masterclass visual spectacles, to making new features, and tweaking designs to fit the current idea of those who need them done.</p>
+                <p class="paraAbout">I'm open to job opportunities, internships and even mentorships to help me improve my skillset. Please do not be afraid to contact me! </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="work"></section>
+        <div class="verLine"></div>
+        <h2 class="aboutH3">Work</h2>
+        <div class="verLine"></div>
+        <div class="workDiv">
+          <div class="work">
+            <h4 class="workH4">Acme Landing Page</h4>
+            <img src="/Concept art/acme thumbnail crop.jpg" alt="acmelanding" width="500px">
+            <div class="workTextBox">
+              <p class="workText">A mock landing page made using Html, Javascript and CSS based off of a fake company.</p>
+            </div>
+            <div class="workButtons">
+              <a href="https://github.com/FableKimble/Acme-Landing-Page.git" class="workGit" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="work"></div>
+          <div class="work"></div>
+          <div class="work"></div>
+          <div class="work"></div>
+          <div class="work"></div>
+        </div>
+        <section id="contact">
+          <div class="verLine"></div>
+          <h2 class="aboutH4">Contact Me</h2>
+          <div class="verLine"></div>
+          <div class="contactDiv">
+              <h4 class="formHeader">If you have any; questions, offers, feedback or reason to contact me. Click the button down below and I'll buy the coffee.</h4>
+              <a class="contactButton" href="mailto:alexjdevans@gmail.com" target="_blank">Say Hi</a>
+          </div>
+          <div class="contactIcons">
+            <a href="https://twitter.com/alexjdevans" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/alexjdevans/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/FableKimble" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </body>
+</html>
